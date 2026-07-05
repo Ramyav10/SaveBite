@@ -21,3 +21,9 @@ Java | JSP | Servlets | MySQL | JDBC | Apache Tomcat 9 | HTML | CSS
 3. Configure MySQL database using schema.sql
 4. Deploy on Apache Tomcat 9
 5. Access at http://localhost:8080/savebite_cag
+
+## Database Setup
+
+1. Create a MySQL database named `savebite`.
+2. Import the `savebite.sql` file.
+3. Update the database password in `DBConnection.java` before running the application.
