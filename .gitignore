@@ -1,0 +1,14 @@
+# Eclipse
+.settings/
+
+# Tomcat Server Configuration
+Tomcat v9.0 Server at localhost-config/
+
+# Build files
+build/
+
+# Java compiled files
+*.class
+
+# Logs
+*.log
