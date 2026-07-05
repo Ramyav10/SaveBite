@@ -11,7 +11,7 @@ public class DBConnection {
 
 	    private static final String URL = "jdbc:mysql://localhost:3306/savebite";
 	    private static final String USERNAME = "root";
-	    private static final String PASSWORD = "root@1234"; 
+	    private static final String PASSWORD = "your password"; 
 
 	    private static Connection connection;
 
