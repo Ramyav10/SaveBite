@@ -34,7 +34,7 @@
 <% if (success != null) { %>
     <div class="auth-success"><%=success%></div>
 <% } %>
-        <form action="${pageContext.request.contextPath}/LoginServlet" method="post" class="auth-form">
+        <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
 
             <div class="form-group">
                 <label>Email</label>

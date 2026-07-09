@@ -42,9 +42,8 @@ User navUser = (User) session.getAttribute("user");
     <div class="logo">SaveBite</div>
     <div class="nav-links">
         <a href="<%=request.getContextPath()%>/jsp/home.jsp">Home</a>
-        <a href="<%=request.getContextPath()%>/RestaurantServlet">Marketplace</a>
+        <a href="<%=request.getContextPath()%>/RestaurantServlet">Marketplace</a>      
        
-        <a href="#">Impact</a>
         <a href="<%=request.getContextPath()%>/jsp/cart.jsp" class="cart-link">&#128722;</a>
         <% if (navUser != null) { %>
             <a href="<%=request.getContextPath()%>/jsp/orders.jsp">My Orders</a>
