@@ -35,7 +35,10 @@ public class UpdateFoodServlet extends HttpServlet {
 
         if (filePart != null && filePart.getSize() > 0) {
             String fileName = System.currentTimeMillis() + "_" + getFileName(filePart);
-            String uploadPath = getServletContext().getRealPath("") + File.separator + "images";
+            String uploadPath = getServletContext().getRealPath("/images");
+            System.out.println("File size = " + filePart.getSize());
+            System.out.println("File name = " + getFileName(filePart));
+            System.out.println("Upload path = " + uploadPath);
             File uploadDir = new File(uploadPath);
             if (!uploadDir.exists()) uploadDir.mkdir();
             filePart.write(uploadPath + File.separator + fileName);

@@ -11,7 +11,7 @@ public class DBConnection {
             String password = System.getenv("DB_PASSWORD");
 
             // fallback for local development
-            if (url == null) url = "jdbc:mysql://localhost:3306/savebite_cag";
+            if (url == null) url = "jdbc:mysql://localhost:3306/savebite";
             if (user == null) user = "root";
             if (password == null) password = "root@1234";
 
