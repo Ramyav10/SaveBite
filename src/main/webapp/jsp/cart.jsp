@@ -55,7 +55,7 @@ User navUser = (User) session.getAttribute("user");
     <% if (cartList == null || cartList.isEmpty()) { %>
         <div class="cart-empty">
             <p>🍽️ Your cart is empty!</p>
-            <a href="/savebite_cag/RestaurantServlet" class="btn">Browse Restaurants</a>
+            <a href="<%=request.getContextPath()%>//RestaurantServlet" class="btn">Browse Restaurants</a>
         </div>
     <% } else { %>
 
@@ -119,7 +119,7 @@ User navUser = (User) session.getAttribute("user");
             <a href="<%=request.getContextPath()%>/jsp/checkout.jsp" class="checkout-btn">
                 Proceed to Checkout →
             </a>
-            <a href="/savebite_cag/RestaurantServlet" class="continue-btn">
+            <a href="<%=request.getContextPath()%>//RestaurantServlet" class="continue-btn">
                 ← Continue Shopping
             </a>
         </div>

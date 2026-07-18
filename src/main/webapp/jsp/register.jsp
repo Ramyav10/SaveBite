@@ -69,7 +69,7 @@
 
         </form>
 
-        <p class="auth-switch">Already have an account? <a href="/savebite_cag/jsp/login.jsp">Login</a></p>
+        <p class="auth-switch">Already have an account? <a href="<%=request.getContextPath()%>//jsp/login.jsp">Login</a></p>
     </div>
 </div>
 

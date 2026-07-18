@@ -51,7 +51,7 @@ User navUser = (User) session.getAttribute("user");
     <% if (orders == null || orders.isEmpty()) { %>
         <div class="orders-empty">
             <p>📦 You haven't placed any orders yet!</p>
-            <a href="/savebite_cag/RestaurantServlet" class="btn">Start Ordering</a>
+            <a href="<%=request.getContextPath()%>//RestaurantServlet" class="btn">Start Ordering</a>
         </div>
     <% } else { %>
 
