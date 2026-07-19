@@ -20,7 +20,7 @@ href="<%=request.getContextPath()%>/css/style.css">
 
 <h2>All Orders</h2>
 
-<a href="adminDashboard.jsp">
+<a href="/jsp/adminDashboard.jsp">
 Back to Dashboard
 </a>
 

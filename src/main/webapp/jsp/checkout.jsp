@@ -199,7 +199,7 @@ User navUser = (User) session.getAttribute("user");
                 Place Order →
             </button>
 
-            <a href="<%=request.getContextPath()%>//jsp/cart.jsp" class="continue-btn">
+            <a href="<%=request.getContextPath()%>/jsp/cart.jsp" class="continue-btn">
                 ← Back to Cart
             </a>
         </div>

@@ -95,10 +95,10 @@ User navUser = (User) session.getAttribute("user");
 
     <!-- Actions -->
     <div class="confirm-actions">
-        <a href="<%=request.getContextPath()%>//jsp/orderHistory.jsp" class="checkout-btn">
+        <a href="<%=request.getContextPath()%>/jsp/orderHistory.jsp" class="checkout-btn">
             View My Orders
         </a>
-        <a href="<%=request.getContextPath()%>//RestaurantServlet" class="continue-btn">
+        <a href="<%=request.getContextPath()%>/RestaurantServlet" class="continue-btn">
             Order More Food
         </a>
     </div>
